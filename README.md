@@ -4,7 +4,7 @@ This repository contains supplementary data for "Advances of Cryo-EM and X-Ray C
 The best way to use the interactive HTML version of the table is by this URL: https://georgeegreat.github.io/Pivovarov_et_al_2026/
 
 
-for usage of jupyter-notebook, ipynb and py file in repository are necessary.
+to reproduce the pictures and tables used in the study, ipynb and py file from this repository are necessary.
 also, environment shoud contain the following libraries:
 
 pandas>=2.0
