@@ -19,5 +19,5 @@ US-align tool should also be installed. We used the this version of US-align
 
 https://github.com/pylelab/USalign/releases/tag/20260527
 
-which were compliled on a local machine (through make). All provided code uses ./USalign notation. We did not check whether the package version of US-align (i.e. installed through bioconda or homebrew) would also work with this notebook.
+which were compliled on a local machine (through make). We did not check whether the package version of US-align (i.e. installed through bioconda or homebrew) would also work with this notebook.
 
