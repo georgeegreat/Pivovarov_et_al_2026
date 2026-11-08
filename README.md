@@ -23,10 +23,14 @@ which were compliled on a local machine (through make). We did not check whether
 
 For USalign to work, you would need to add it to environment variable. If you run the notebook on HCP cluster, this can be done by pasting 
 
+```python
 os.environ["USALIGN"] = "/path/to/USalign/executable"
+```
 
 in the Setup cell of the notebook
 
-otherwise, add it through PATH
+otherwise, add it through PATH in .bashrc file
 
+```bash
 export PATH="/path/to/folder/USalign/USalign:$PATH"
+```
