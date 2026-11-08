@@ -24,6 +24,7 @@ which were compliled on a local machine (through make). We did not check whether
 For USalign to work, you would need to add it to environment variable. If you run the notebook on HCP cluster, this can be done by pasting 
 
 ```python
+import os
 os.environ["USALIGN"] = "/path/to/USalign/executable"
 ```
 
