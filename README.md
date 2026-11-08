@@ -21,3 +21,11 @@ https://github.com/pylelab/USalign/releases/tag/20260527
 
 which were compliled on a local machine (through make). We did not check whether the package version of US-align (i.e. installed through bioconda or homebrew) would also work with this notebook, but presumably it is also sufficient.
 
+For USalign to work, you would need to add it to environment variable. If you run the notebook on HCP cluster, this can be done by pasting 
+
+os.environ["USALIGN"] = "/path/to/USalign/executable"
+
+in the Setup cell of the notebook
+
+otherwise, add it through PATH
+export PATH="/path/to/folder/USalign/USalign:$PATH"
