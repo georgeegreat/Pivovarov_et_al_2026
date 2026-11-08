@@ -28,4 +28,5 @@ os.environ["USALIGN"] = "/path/to/USalign/executable"
 in the Setup cell of the notebook
 
 otherwise, add it through PATH
+
 export PATH="/path/to/folder/USalign/USalign:$PATH"
